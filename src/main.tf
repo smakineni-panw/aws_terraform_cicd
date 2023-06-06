@@ -24,3 +24,9 @@ module "tf-state" {
   source      = "./modules/tf-state"
   bucket_name = "cloudguru-tf-state"
 }
+
+module "vpc-infra" {
+  source      = "./modules/vpc"
+  # VPC Input vars
+  #vpc_cidr = "local.vpc_cidr"
+}
