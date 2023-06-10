@@ -5,5 +5,5 @@ terraform {
         version = "~> 3.27"
         }
     }
-    access_key = "AKIAIOSFODNN7EXAMPLE"
+#    access_key = "AKIAIOSFODNN7EXAMPLE"
 }
